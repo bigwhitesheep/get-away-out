@@ -185,22 +185,11 @@
     };
     curTime = curDateTime();
     
-    function Enter(e) {
-      console.log(e)
-      var name = document.getElementById("input-name").value;
-      var number = document.getElementById("input-number").value;
-
-      document.getElementById("content").style.display = "";
-      document.getElementById("input-box").style.display = "none";
-
-      if (name != '') {
-        document.getElementById("info-name").innerHTML = name;
-      }
-      if (number != '') {
-        document.getElementById("info-number").innerHTML = number;
-      }
+    window.onload=function(){
+      //do something
       document.getElementById("time").innerHTML = curTime;
-    }
+}
+
   </script>
 
 </body><div style="all: initial;"><div></div></div></html>
